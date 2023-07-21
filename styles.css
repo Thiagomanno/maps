@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('/imagem/thiagomanno_a_sea_as_you_were_seeing_an_island_and_on_the_edge__b743cb88-7fba-474b-8501-3fbce2029544.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.farol{
+    width: 150px;
+    text-decoration: 50%, transparent;
+}
+
+.boia{
+    width: 30px;
+    text-decoration: 50%, transparent;
+}
+.beijaflor{
+    width: 56px;
+    text-decoration: 50%, transparent;
+}
+
+.golfinho{
+    width: 150px;
+    text-decoration: 50%, transparent;
+}
+
+.ocean{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    max-height: 1000px;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%; /* Ajuste a largura dos blocos aqui */
+    margin: auto;
+    padding: 40px; /* Espaçamento interno */
+}
+
+
+
+.bloco-comum{
+    width: 40px;
+    border-radius: 5px;
+    background-color:transparent; /* Cor do fundo do bloco */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #0d47a1; /* Cor do fundo do oceano */
+}
+
+.ocean {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    max-height: 600px;
+    background-color: transparent; /* Cor do oceano com transparência */
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 3000px; /* Ajuste a largura dos blocos aqui */
+    height: 1500px;
+    margin: 1px;
+    padding: 5px; /* Espaçamento interno */
+    background-color: #ffffff9b;
+}
+
+
+
+/* Estilizando os blocos com classes individuais */
+.bloco01 {
+        position: absolute; /* Defina a posição como absolute */
+        top: 20px; /* Define a distância em pixels do topo */
+        left: 950px; /* Define a distância em pixels da esquerda */
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        border-radius: 20px;
+        background-color: #ffffff00; /* Cor do fundo do bloco (transparente) */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+/* Estilizando o link e a imagem dentro do bloco */
+.bloco01 a,
+.bloco01 img {
+    display: block;
+}
+
+/* Estilizando o balão de comentário, balao quando passa o mouse em cima do link */ 
+.balao-comentario {
+    font-size: 15px;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f1f1f1;
+    border: solid 4px black;
+    padding: 5px 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+    width: 250px;
+    margin-bottom: 10px;
+    
+}
+
+/* Exibindo o balão de comentário ao passar o mouse */
+.bloco01:hover .balao-comentario {
+    display: block;
+}
+
+.bloco02 {
+    position: absolute; /* Defina a posição como absolute */
+    top: 510px; /* Define a distância em pixels do topo */
+    left:  1100px; /* Define a distância em pixels da esquerda */
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffffff00; /* Cor do fundo do bloco (transparente) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bloco02 a,
+.bloco02 img {
+    display: block;
+}
+
+.bloco02:hover .balao-comentario {
+    display: block;
+}
+
+/* proximo bloco*/
+
+
+.bloco03 {
+    position: absolute; /* Defina a posição como absolute */
+    top: 450px; /* Define a distância em pixels do topo */
+    left: 100px; /* Define a distância em pixels da esquerda */
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffffff00; /* Cor do fundo do bloco (transparente) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.bloco03 a,
+.bloco03 img {
+    display: block;
+}
+
+.bloco03:hover .balao-comentario {
+    display: block;
+    width: 450px;
+}
+
+
+
+/* proximo bloco*/
+
+
+.bloco04 {
+    position: absolute; /* Defina a posição como absolute */
+    top: 420px; /* Define a distância em pixels do topo */
+    left: 800px; /* Define a distância em pixels da esquerda */
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffffff00; /* Cor do fundo do bloco (transparente) */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+
+.bloco04 a,
+.bloco04 img {
+    display: block;
+}
+
+.bloco04:hover .balao-comentario {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+    width: 450px;
+}
+
+.link-comentario{
+    color: black;
+    font-size: 15px;
+    
+}
+
+h1{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 15px;
+}
